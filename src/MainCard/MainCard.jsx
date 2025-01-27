@@ -2,7 +2,7 @@ import React from 'react'
 import LeftCard from '../Left-Card/LeftCard'
 import MiddleCard from '../Middle-Card/MiddleCard'
 import Righntcard from '../Right-card/RigntCard'
-import './MainCard.css'
+import './Maincard.css'
 function MainCard() {
   return (
     <div className='maincard'>
@@ -14,4 +14,4 @@ function MainCard() {
   )
 }
 
-export default MainCard
+export default MainCard;
