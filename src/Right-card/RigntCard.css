@@ -1,0 +1,266 @@
+.right-side-card {
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  height: auto;
+  width: 30vw;
+  margin-top: 80px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  padding: 10px;
+  
+}
+
+/* Container for all cards */
+.cards-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Space between the cards */
+  padding: 20px;
+  width: 30vw;
+}
+
+/* Rightcard styles */
+.rightcard {
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+.rightcard h3 {
+  font-size: 30px;
+}
+.rightcard p {
+  /* font-size: 10px; */
+}
+
+/* CARD-2 */
+
+.rightcard-2 {
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+.rightcard-2 h1 {
+  font-size: 1.8rem;
+}
+.rightcard-2-heading {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.rightcard-2-heading p {
+  color: #7fc6b2;
+}
+.metrics div {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+}
+.metrics div span {
+  color: #7fc6b2;
+  font-size: 1.4rem;
+}
+.metrics div p {
+  color: black;
+  font-size: 0.8rem;
+}
+
+/* card 3 */
+
+.Feedback-rightcircle {
+  width: 30px;
+  height: 30px;
+  padding: 5px;
+  background-color: #7fc6b2;
+  font-size: 12px;  
+  color: white;
+  border-radius: 50%;
+  text-align: center;
+  margin: 5px;
+}
+.rightcard:first-child{
+  display: flex;
+
+}
+
+/* card-3 */
+
+.rightcard-3{
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+.Feeddback-header{
+  display: flex;
+  align-items: center;
+}
+.Feeddback-header h3{
+  font-size: 25px;
+}
+/* Feedback Card Specific Styles */
+.feedback-content {
+  display: flex;
+  align-items: center;
+  gap: 15px; /* Space between the circle and text */
+  margin-bottom: 10px; /* Space between the text and buttons */
+}
+
+
+
+/* RightCircle styles */
+.rightcircle {
+  display: inline-block;
+  padding: 50px;
+  background-color: white;
+  border: 1px solid black;
+  color: white;
+  border-radius: 50%;
+  text-align: center;
+  margin: 5px;
+}
+
+/* Align circles to the right side of the card */
+.rightcard .mood-circles,
+.rightcard .metrics {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+/* Flexbox layout for the mood circles */
+.mood-circles {
+  display: flex;
+  justify-content: center; /* Align to the right */
+  gap: 10px;
+}
+.mood-circles div p {
+  text-align: center;
+  /* font-size: 15px; */
+}
+.feeling {
+  text-align: center;
+  font-size: 1.5rem;
+  margin: 15px 0px;
+  color: #7fc6b2;
+}
+/* Metrics section in Card 2 */
+.metrics {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.Reconnect-tap{
+  background-color: #7fc6b2;
+  color: white;
+  padding: 12px;
+  border-radius: 20px;
+}
+.reconnect-profile div p{
+  font-size: 10px;
+}
+.Reconnect-title{
+  font-size: 25px;
+}
+
+
+.rightcard-feedback{
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  margin-bottom: 20px;
+  
+  text-align: center;
+  
+}
+
+.card-header {
+  text-align: left;
+  margin-bottom: 16px;
+}
+
+.card-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.circle-badge {
+  width: 24px;
+  height: 24px;
+  background: #52c0b4;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.feedback-date {
+  font-size: 12px;
+  color: #aaa;
+}
+
+.feedback-content {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+  text-align: left;
+}
+
+.rightcircle {
+  width: 40px;
+  height: 40px;
+  background: #a4d4ca;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.feedback-text p {
+  margin: 0;
+  line-height: 1.5;
+  font-size: 14px;
+}
+
+.feedback-title {
+  font-weight: bold;
+  font-size: 2rem;
+
+}
+
+.primary-button {
+  background-color: #52c0b4;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.primary-button:hover {
+  background-color: #469f9a;
+}
+
+.view-all {
+  font-size: 14px;
+  color: #52c0b4;
+  cursor: pointer;
+}

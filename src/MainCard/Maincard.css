@@ -1,0 +1,7 @@
+.maincard {
+  display: flex;
+  justify-content: space-between; /* Space between cards */
+  align-items: center; /* Align items vertically */
+  gap: 10px; /* Optional: Space between cards */
+  padding: 10px; /* Optional: Add padding around the container */
+}

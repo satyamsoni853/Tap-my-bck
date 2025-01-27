@@ -1,0 +1,100 @@
+/* Navbar Styles */
+.navbar {
+  color: black;
+  padding: 10px 20px;
+  border: 2px solid grey;
+  margin-top: 20px;
+  border-radius: 30px;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Left Section */
+.navbar-left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.circle {
+  width: 40px;
+  height: 40px;
+  background-color: #7FC6B2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin-right: 20px;
+  font-weight: bold;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  margin: 0 auto;
+  padding: 0;
+  justify-content: center; /* Center align horizontally */
+  align-items: center; /* Align items vertically */
+  flex-grow: 1;
+}
+
+.navbar-links li a {
+  text-decoration: none;
+  font-size: 20px;
+  
+}
+
+.navbar-links li a:hover {
+  color: #7FC6B2;
+}
+
+/* Right Section */
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/* Notification Icon */
+.notification {
+  position: relative;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: black;
+  /* color: #fff; */
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+}
+
+.badge {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  background-color: red;
+  color: #fff;
+  font-size: 10px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Profile Circle */
+.profile-circle {
+  width: 35px;
+  height: 35px;
+  background-color: #7FC6B2;
+  border-radius: 50%;
+}
